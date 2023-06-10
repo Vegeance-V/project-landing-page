@@ -1,3 +1,27 @@
-.topcontainer {
-    
+* {
 }
+
+.topcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 0px 48px 24px;
+}
+
+.header {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 12px;
+}
+
+.start {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-margin {
+    margin-left: auto;
+}
+
+.image-placeholder {}
